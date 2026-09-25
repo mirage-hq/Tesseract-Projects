@@ -40,7 +40,9 @@ _Nothing here yet — [contributions welcome](AGENTS.md)._
 
 ### Complex projects
 
-_Nothing here yet — [contributions welcome](AGENTS.md)._
+| Project | Preview | What it shows |
+| --- | --- | --- |
+| **[Spam Showreel](complex-projects/spam-showreel/)** | <a href="complex-projects/spam-showreel/"><img src="complex-projects/spam-showreel/preview.png" width="260" alt="Spam Showreel"></a> | A 15-second, seven-scene brand reel cut to music — 1,653 layers, beat-locked expressions, 3D camera moves, and not one imported image or font. |
 
 ## Using a project
 
