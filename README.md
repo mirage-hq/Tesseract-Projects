@@ -60,6 +60,8 @@ Each `.tsrct` is self-contained: fonts and media are packaged inside it, so a pr
 
 Read **[AGENTS.md](AGENTS.md)**. It defines the folder layout, naming, and the checks a project needs to pass — written so that either a person or an agent can follow it directly. In short: pick the right tier, give the project its own folder, include the README, the video, and the `.tsrct`, and make sure anything embedded in the project is yours to share.
 
+If an agent built your project, consider saying so in its README — which model, and the prompt you gave it. It is optional and not a condition of merging, but these projects are meant to be opened by an agent, and the prompt is often the most useful thing in the folder: it shows what you actually had to ask for, which no amount of reading the `.tsrct` will tell you.
+
 ## Licensing
 
 **The example projects in this repository are free to use.** The projects, videos, and documentation here are released under the [MIT License](LICENSE) — use them, remix them, ship them, commercially or otherwise.
