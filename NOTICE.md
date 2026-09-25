@@ -15,6 +15,12 @@ You may use, modify, and redistribute that content freely, including commerciall
 
 Under the [Tesseract terms](https://github.com/mirage-hq/Tesseract/blob/main/TERMS.md), a project you create with Tesseract is your **Output**, and you own it. That is what makes it possible to publish these examples under MIT.
 
+### AI-generated media in a project
+
+Some projects here include audio or imagery generated with an AI tool. Where they do, the project was made on a paid plan whose terms assign ownership of the output to the person who generated it, and it is published here under the MIT license along with the rest of the project — the same as any other part of the Output.
+
+Two caveats worth stating plainly. The copyright status of AI-generated material is unsettled and varies by jurisdiction, so in some places such material may attract thin protection or none at all. And the MIT grant here comes from the publisher of this repository; it is not a grant from the AI provider, whose own terms govern the generating account, not your use of the result. Each project that includes AI-generated material says so in its README.
+
 ## 2. What the MIT license does not cover
 
 ### Tesseract itself
