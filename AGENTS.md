@@ -42,7 +42,7 @@ Optional extra folders, only when they genuinely help a reader:
 
 ```text
 ├── Assets/                source media you generated or own, worth reusing
-└── .tesseract-work/       build scripts, shader sources, action JSON, notes
+└── .tesseract-work/       build scripts, shader sources, action JSON, prompts, notes
 ```
 
 Keep `.tesseract-work/` only when it teaches something — a WGSL source worth reading, or a build script that reproduces the project. Delete scratch renders, schema dumps, and debugging intermediates.
@@ -99,6 +99,10 @@ Every project folder needs a `README.md`. Keep it short — a reader should get 
 | `<project-slug>.tsrct` | Editable Tesseract project, fonts and media packaged inside. |
 | `<project-slug>.mp4` | Rendered video. |
 
+## How it was made
+
+<Optional. The model and the prompt, if an agent built it. See below.>
+
 ## Remixing it
 
 <A copy-pasteable prompt showing a natural edit to this project.>
@@ -117,6 +121,20 @@ tsrct preview --project <project-slug>.tsrct --time <seconds> --output preview.p
 
 Scale it to about 1280px wide to keep the repo light.
 
+### Share the prompt, if there was one
+
+Optional, and never a condition of merging — but if an agent built the project, consider including a **How it was made** section with the prompt you used and the model that ran it. These projects exist to be opened by an agent, so the prompt is often the most transferable thing in the folder: it shows what you actually had to ask for, which is harder to reverse-engineer from a finished `.tsrct` than any keyframe is.
+
+Include it when you can:
+
+- **Name the model and version** — "Claude Opus 5", not "an LLM". Capability moves fast, and a prompt reads very differently depending on what ran it.
+- **Quote the real prompt**, not a tidied-up one. If it took a long back-and-forth, give the opening prompt and describe how the session went rather than pasting the whole transcript.
+- **Say where the work actually happened.** If you hand-built the piece, or the agent got you 70% there and you fixed the rest by hand, that is worth more than a prompt that implies one shot. Do not reconstruct a prompt that never ran.
+
+Skip it just as freely. Some projects are hand-built, some came out of a session too long or too messy to be worth summarising, and some prompts contain things you would rather not publish. A project with no **How it was made** section is complete.
+
+Longer material — a full transcript, a build script, intermediate prompts — belongs in `.tesseract-work/` if it teaches something, not in the README.
+
 ## 5. Update the root README
 
 Add a row for your project to the matching table in [README.md](README.md), with the project name, the poster, and a one-line description of what it shows. If your tier still says _"Nothing here yet"_, replace that line with the table.
@@ -132,4 +150,5 @@ Add a row for your project to the matching table in [README.md](README.md), with
 - [ ] `licenses/` holds the full text for everything embedded, and `NOTICE.md` lists the project.
 - [ ] No Mirage or Tesseract logos or branding in the artwork.
 - [ ] The root README lists the project.
+- [ ] Optional: the README credits the model and prompt that built it, if an agent did.
 - [ ] No scratch files, no credentials, no private material.
